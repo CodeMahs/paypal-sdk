@@ -1,0 +1,25 @@
+{
+    "name": "codemahs/paypal-sdk",
+    "description": "Paypal SDK",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Codemahs\\PaypalSdk\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Codemahs\\PaypalSdk\\Test\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marco",
+            "email": "marc0.4ntonio.1996@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
